@@ -1,0 +1,573 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.234);
+  color: orangered;
+  z-index: 1;
+}
+.navlogo {
+  margin-left: 20px;
+}
+.navbar ul li a {
+  font-size: 25px;
+}
+.navbar ul li :hover {
+  color: black;
+}
+
+.navul {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+  color: orangered;
+  margin-right: 10px;
+}
+/*navbar label and responsive element added here*/
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.navbar label{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: orangered;
+  
+}
+#check{
+  display: none;
+
+}
+#check:checked~.navbar ul{
+  display: block;
+
+}
+@media screen and (max-width:750px) {
+  
+  .navbar{
+      height: 100px;
+  }
+  .navbar label{
+      display: block;
+
+  }
+  .navbar ul{
+      display: none;
+      margin-top: 100px;
+
+  }
+  .navbar ul li {
+      color: orangered;
+  }
+}
+@media screen and (min-width:750px) {
+  .navbar label{
+      display: none;
+  }
+  
+}
+
+/*ended here*/
+
+.combinenavhero {
+  background-image: url(Firefly\ 20240602143505.png);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.hero h2 {
+  font-weight: bolder;
+  color: orangered;
+  -webkit-text-stroke: 1px rgb(255, 255, 255); /* width and color */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
+  margin-left: 100px;
+  margin-top: 100px;
+  backdrop-filter: blur(3px);
+
+  position: relative;
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-iteration-count: initial;
+}
+/*responsive for mobile code*/
+@media screen and (max-width:600px){
+  .hero h2 {
+    font-weight: bolder;
+    color: orangered;
+    -webkit-text-stroke: 1px rgb(255, 255, 255); /* width and color */
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    margin-left: 90px;
+    margin-top: 90px;
+    backdrop-filter: blur(1px);
+  }
+  .combinenavhero {
+    background-image: url(Firefly\ 20240602143505.png);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+  }
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  25% {
+    left: 0;
+    top: 300px;
+  }
+  50% {
+    left: 0;
+    top: 0;
+  }
+}
+/* special cuisine section starts from here*/
+
+.specialtext h3 {
+  color: orangered;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.special1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.special2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.ch11 {
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 1px 1px 10px 3px rgb(255, 213, 199);
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+}
+.ch11:hover{
+  box-shadow: 1px 1px 10px 3px rgb(0, 0, 0);
+
+}
+
+.ch12 {
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 1px 1px 10px 3px rgb(255, 213, 199);
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+}
+.ch12:hover{
+  box-shadow: 1px 1px 10px 3px rgb(0, 0, 0);
+
+}
+.ch21 {
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 1px 1px 10px 3px rgb(255, 213, 199);
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+}
+.ch21:hover{
+  box-shadow: 1px 1px 10px 3px rgb(0, 0, 0);
+
+}
+.ch22 {
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 1px 1px 10px 3px rgb(255, 213, 199);
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+}
+.ch22:hover{
+  box-shadow: 1px 1px 10px 3px rgb(0, 0, 0);
+
+}
+@media screen and (max-width: 700px)
+{
+  .special1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .special2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .ch11 {
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 1px 1px 10px 3px rgb(255, 213, 199);
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+  }
+  
+  .ch12 {
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 1px 1px 10px 3px rgb(255, 213, 199);
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+  }
+  
+  .ch21 {
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 1px 1px 10px 3px rgb(255, 213, 199);
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+  }
+  .ch22 {
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 1px 1px 10px 3px rgb(255, 213, 199);
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+  }
+  #spimg11{
+    height: 150px;
+    width: 150px;
+  }
+  #spimg12{
+    height: 150px;
+    width: 150px;
+  }
+  #spimg21{
+    height: 150px;
+    width: 150px;
+  }
+  #spimg22{
+    height: 150px;
+    width: 150px;
+  }
+
+.ch11 p{
+  display: none;
+}
+.ch12 p{
+  display: none;
+}
+.ch21 p{
+  display: none;
+}
+.ch22 p{
+  display: none;
+}
+
+
+
+  
+}
+
+/* div for features or fast delivery, variety,offers.*/
+.feature {
+  width: 100vw;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  flex-wrap: wrap;
+ 
+}
+.fe {
+  height: 200px;
+  width: 300px;
+  background-color: orangered;
+  margin: 50px;
+  border-radius: 30px;
+  box-shadow: -3px -3px 25px rgba(255, 115, 0, 0.692);
+}
+.fe:hover{
+    box-shadow: 1px 1px 10px 3px rgb(0, 0, 0);
+}
+
+.fe1 i {
+  text-align: center;
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+.fe1 p {
+  text-align: center;
+  position: relative;
+  top: 25%;
+  color: rgb(255, 255, 255);
+
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  margin-top: 30px;
+}
+
+.fe2 i {
+  text-align: center;
+  position: relative;
+  top: 25%;
+  left: 30%;
+}
+.fe2 p {
+  text-align: center;
+  position: relative;
+  top: 25%;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  margin-top: 30px;
+}
+
+.fe3 i {
+  text-align: center;
+  position: relative;
+  top: 25%;
+  left: 30%;
+}
+.fe3 p {
+  text-align: center;
+  position: relative;
+  top: 25%;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  margin-top: 30px;
+}
+
+
+/* menu section starts from here*/
+.menus {
+  display: flex;
+  justify-content: center;
+}
+.menuimg {
+  background-image: url(5f64ed8f58fceb2c280d0ee6_drinks.png);
+  background-size: cover;
+  height: 500px;
+  width: 700px;
+  background-color: antiquewhite;
+}
+@media screen and (max-width:650px){
+  .menuimg{
+    height: 350px;
+    width: 500px;
+  }
+}
+.menuimg h1 {
+  text-align: center;
+  margin-top: 150px;
+  text-decoration-line: underline;
+  font-size: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.menutext {
+  height: 500px;
+  width: 700px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+.menutext p {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 30px;
+}
+
+
+/* orange button for menu */
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+ size: 20px;
+}
+@media screen and (max-width: 700px){
+  .menutext{
+    display: none;
+  }
+}
+
+
+/* menu button end here */
+/* menu section end here */
+
+/* about section starts here */
+
+.leftdiv {
+  width: 50%;
+}
+.aboutfood {
+  background-image: url(about\ new_24-06-13_09-53-15-679.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 50vmax;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rightdiv {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.rightdiv p {
+  color: aliceblue;
+  font-size: 15px;
+  backdrop-filter: 10px;
+}
+.rightdiv h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+  backdrop-filter: 10px;
+}
+/*
+@media screen and(max-width:650px) {
+  .rightdiv h1 {
+    font-size: 10px;}
+}
+ */
+ llllllll
+/* about section end here */
+
+/*booking and order starts from here*/
+.bookorder{
+  width: 100%;
+  height:auto;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content:center;
+
+}
+.book{
+  background-color: rgb(255, 255, 255);
+  color: orangered;
+  border: 2px solid orangered;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  height: 500px;
+  width: 400px;
+}
+.order{
+  background-color: orangered;
+  color: rgb(255, 255, 255);
+  border: 2px solid orangered;
+  align-items: center;
+  padding: 10px;
+  height: 500px;
+  width: 400px;
+  gap: 50px;
+}
+label{
+  font-size: 20px;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/*booking and order ended here*/
+
+/*footer starts */
+footer{
+  background-color: orangered;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+}
+
+.quick{
+  color: white;
+  margin: 50px;
+}
+.quick ul li a{
+  color: white;
+  list-style: none;
+  gap: 30px;
+  margin-top: 5px;
+}
+.contact{
+  color: white;
+  margin: 50px;
+}
+.contact ul li a{
+  color: white;
+  list-style: none;
+  gap: 30px;
+  margin-top: 5px;
+}
+
+.follow{
+  color: white;
+  margin: 50px;
+}
+.follow ul li a{
+  color: white;
+  list-style: none;
+  gap: 30px;
+  margin-top: 5px;
+}
+/*footer ends*/
