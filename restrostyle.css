@@ -142,7 +142,7 @@ html {
   color: orangered;
   text-align: center;
   font-size: 30px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Engravers MT;
 }
 
 .special1 {
@@ -172,6 +172,15 @@ html {
   box-shadow: 1px 1px 10px 3px rgb(0, 0, 0);
 
 }
+.ch11 h3{
+  font-family: Engravers MT;
+}
+.ch11 p{
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: monospace;
+}
+
 
 .ch12 {
   padding: 10px;
@@ -186,6 +195,15 @@ html {
   box-shadow: 1px 1px 10px 3px rgb(0, 0, 0);
 
 }
+.ch12 h3{
+  font-family: Engravers MT;
+}
+.ch12 p{
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: monospace;
+}
+
 .ch21 {
   padding: 10px;
   margin: 5px;
@@ -199,6 +217,15 @@ html {
   box-shadow: 1px 1px 10px 3px rgb(0, 0, 0);
 
 }
+.ch21 h3{
+  font-family: Engravers MT;
+}
+.ch21 p{
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: monospace;
+}
+
 .ch22 {
   padding: 10px;
   margin: 5px;
@@ -211,6 +238,14 @@ html {
 .ch22:hover{
   box-shadow: 1px 1px 10px 3px rgb(0, 0, 0);
 
+}
+.ch22 h3{
+  font-family: Engravers MT;
+}
+.ch22 p{
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: monospace;
 }
 @media screen and (max-width: 700px)
 {
@@ -463,13 +498,13 @@ html {
   color: white;
   backdrop-filter: 10px;
 }
-/*
+
 @media screen and(max-width:650px) {
   .rightdiv h1 {
     font-size: 10px;}
 }
- */
- llllllll
+
+
 /* about section end here */
 
 /*booking and order starts from here*/
